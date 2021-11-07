@@ -139,14 +139,6 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
               <a href="https://codebushi.com" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
@@ -158,7 +150,7 @@ class Main extends React.Component {
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/ejhoovler/gatsby-dimension.git"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>

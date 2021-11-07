@@ -4,17 +4,13 @@ import React from 'react'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <span className="icon"><i className="fa fa-paint-brush"></i></span>
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>LeeLee's UniCornS</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          A fully responsive ECommerce demo site.
         </p>
       </div>
     </div>
@@ -35,7 +31,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Products
           </button>
         </li>
         <li>
